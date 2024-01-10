@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lemon', serif;
 }
 
 body {
-  background: linear-gradient(70deg, pink, lime);
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +25,8 @@ body {
   background-color: #fff;
   border-radius: 2rem;
   padding: 20px;
+  margin-top: 10rem;
+  background-image: linear-gradient(to bottom right, lime, pink 50%);
 }
 
 #task-list {
@@ -54,14 +59,21 @@ input[type="text"] {
   padding: 0.625rem;
   margin-bottom: 1.25rem;
   box-sizing: border-box;
+  font-size: 1.15rem;
 }
 
 button {
   width: 100%;
   padding: 1.25rem;
   border: none;
-  background-color: #3498db;
-  color: #fff;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
   cursor: pointer;
   border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+  color: black;
 }
