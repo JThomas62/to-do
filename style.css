@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lemon', serif;
+  
 }
 
 body {
@@ -22,7 +25,6 @@ body {
 
 #todo-container {
   width: 30rem;
-  background-color: #fff;
   border-radius: 2rem;
   padding: 20px;
   margin-top: 10rem;
@@ -60,17 +62,17 @@ input[type="text"] {
   margin-bottom: 1.25rem;
   box-sizing: border-box;
   font-size: 1.15rem;
+  border-radius: 2rem;
 }
 
 button {
   width: 100%;
   padding: 1.25rem;
   border: none;
-  background-color: black;
-  color: white;
+  background-color: lightslategray;
   font-size: 1.3rem;
   cursor: pointer;
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 
 button:hover {
