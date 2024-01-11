@@ -4,7 +4,7 @@ A simple and intuitive to-do list web application with basic functionalities lik
 
 ## Live Demo
 
-Check out the live demo of the ToDo app: [ToDo App Demo](https://your-todo-app-url.com)
+Check out the live demo of the ToDo app: [ToDo App Demo](https://jacobthomas-todo.netlify.app/)
 
 ## Features
 
